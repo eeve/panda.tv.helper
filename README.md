@@ -17,7 +17,7 @@
 
 ## Description
 
-支持自动感谢与刷屏幕两种模式，有问题请提交[issue](https://github.com/eeve/panda.tv.helper/issues/new)，感谢！
+支持自动感谢与刷屏两种模式，有问题请提交[issue](https://github.com/eeve/panda.tv.helper/issues/new)，感谢！
 
 ## Link
 
