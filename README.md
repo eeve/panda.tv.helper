@@ -1,6 +1,6 @@
 # panda.tv.helper
 
-> Auto send message helper script for panda.tv
+> Auto send message script for panda.tv
 
 ## Install
 
