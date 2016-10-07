@@ -85,6 +85,9 @@
 	min-width: 100px;
   border: none;
   color: #fff;
+  &:hover{
+		opacity: 0.7;
+  }
 }
 
 .ui-panda-config-btn-primary{
