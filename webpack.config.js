@@ -5,7 +5,7 @@ var plugins = [
   new webpack.DefinePlugin({
     __DEV__: debug
   }),
-  new webpack.BannerPlugin(' Auto send message helper script for panda.tv \n @auhtor eeve \n @website: https://eeve.me'),
+  new webpack.BannerPlugin(' Auto send message script for panda.tv \n @auhtor eeve \n @website: https://eeve.me'),
   new webpack.optimize.OccurenceOrderPlugin(),
   new webpack.NoErrorsPlugin(),
   new webpack.HotModuleReplacementPlugin()
