@@ -28,4 +28,4 @@
 
 ## Scripts
 
-`npm start` : build all js bundles from `src/` to `dist/`
+`npm run build`: build all js bundles from `app/` to `dist/`
