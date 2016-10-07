@@ -1,0 +1,7 @@
+.idea
+*.iml
+out/
+node_modules/
+*.log
+.DS_Store
+*.map
