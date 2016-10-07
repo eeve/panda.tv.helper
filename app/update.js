@@ -11,7 +11,7 @@
 // @include      /^http://(www\.)?panda.tv/roomframe/\d+(.*)?$/
 // @grant        unsafeWindow
 // @run-at       document-end
-// @require      https://greasyfork.org/scripts/23817-panda-tv-hack-core/code/pandatvhackcore.js
+// @require      https://greasyfork.org/scripts/23822-panda-tv-hack-core/code/pandatvhackcore.js
 // ==/UserScript==
 
 (function() {

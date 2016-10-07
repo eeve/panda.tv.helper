@@ -21,7 +21,7 @@
 
 ## Link
 
-[Panda.tv弹幕助手 - greasyfork.org](https://greasyfork.org/zh-CN/scripts/23818-panda-tv%E5%BC%B9%E5%B9%95%E5%8A%A9%E6%89%8B)
+[Panda.tv弹幕助手 - greasyfork.org](https://greasyfork.org/zh-CN/scripts/23821-panda-tv%E5%BC%B9%E5%B9%95%E5%8A%A9%E6%89%8B)
 
 
 # Fork
