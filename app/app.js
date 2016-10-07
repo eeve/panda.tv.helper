@@ -59,10 +59,10 @@ function listenMessageList($){
     	isBaby: self.hasClass('room-chat-identity-angelababy'),// 是否angelababy
     	isHost: self.hasClass('room-chat-identity-host'),// 是否主播
     }
-    const showTagIcons = self.find('.room-chat-tags');
-    if(showTagIcons && showTagIcons.length === 1){
-        const _level = showTagIcons.find('.room-chat-tag-user-level');
-        const _plat = showTagIcons.find('.room-chat-tag-plat');
+    const tags = self.find('.room-chat-tags');
+    if(tags && tags.length === 1){
+        const _level = tags.find('.room-chat-tag-user-level');
+        const _plat = tags.find('.room-chat-tag-plat');
         if(_level && _level.length === 1){
             userInfo.level = LevelMap.get(_level[0].className);
         }
