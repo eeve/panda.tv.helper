@@ -5,7 +5,7 @@ import PlatformMap from './constants/platform';
 import FaceIcon from './constants/faceIcon';
 
 import Utils from './lib/utils';
-import Config from './lib/config';
+import Config from './config/config';
 
 let IconMap = null;
 let RoomInfo = null;

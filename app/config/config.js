@@ -1,7 +1,7 @@
 import './config.scss';
 import template from './config.html';
 
-import Toast from './toast';
+import Toast from '../lib/toast';
 import Icon from '../icon.png';
 
 export default function($, utils) {
@@ -10,7 +10,7 @@ export default function($, utils) {
 
 	// 吐司消息
 	function toastMsg(msg) {
-		new Toast({ context: Body, message: msg }).show();
+		new Toast({ context: Body, message: msg, time: 5000 }).show();
 	}
 
 	// 发送消息

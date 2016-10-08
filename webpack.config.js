@@ -35,7 +35,7 @@ module.exports = {
     umdNamedDefine: true
   },
   plugins: plugins,
-  devtool: '#source-map',
+  devtool: debug ? '#source-map' : '',
   module:{
     loaders:[
 

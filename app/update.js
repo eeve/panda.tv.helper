@@ -3,7 +3,7 @@
 // @namespace
 // @website      https://eeve.me
 // @version      0.1
-// @description  Auto send message helper script for panda.tv
+// @description  Auto send message script for panda.tv
 // @author       eeve
 // @include      /^http://(www.)?panda.tv/\d+$/
 // @include      /^http://stars.panda.tv(/(election|conference|xroom))?/?$/
