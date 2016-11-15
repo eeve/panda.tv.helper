@@ -1,8 +1,14 @@
 {
   "name": "panda.tv.helper",
-  "version": "0.0.1",
-  "description": "Auto send message helper script for panda.tv",
-  "main": "dist/index.js",
+  "version": "1.0.0",
+  "description": "Auto send message script for panda.tv",
+  "main": "index.js",
+  "author": "eeve <eeveme@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress --profile --bail --p",
+    "start": "webpack-dev-server --display-error-details"
+  },
   "keywords": [
     "panda.tv",
     "panda",
@@ -11,29 +17,21 @@
     "熊猫TV弹幕",
     "弹幕助手"
   ],
-  "scripts": {
-    "build": "set NODE_ENV=production&&webpack --display-error-details",
-    "start": "./node_modules/.bin/webpack-dev-server --display-error-details"
-  },
-  "author": "eeve <eeveme@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
-    "babel-core": "^6.13.2",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.13.2",
-    "babel-preset-stage-1": "^6.13.0",
-    "css-loader": "^0.23.1",
-    "node-sass": "^3.4.2",
-    "sass-loader": "^3.1.2",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0",
     "bluebird": "^3.4.6",
-    "file-loader": "^0.9.0",
+    "css-loader": "^0.25.0",
+    "jquery": "^3.1.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "string-loader": "^0.0.1",
-    "url-loader": "^0.5.7"
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }

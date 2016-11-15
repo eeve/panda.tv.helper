@@ -16,5 +16,5 @@
 
 (function() {
     'use strict';
-    $FUCKPDTV.default.initialize(unsafeWindow.$);
+    $PDTV.default.run();
 })();

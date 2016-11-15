@@ -1,3 +1,4 @@
+import $ from 'jquery';
 /**
  * 模仿android里面的Toast效果，主要是用于在不打断程序正常执行的情况下显示提示数据
  * @param config

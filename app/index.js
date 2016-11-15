@@ -1,9 +1,3 @@
-import App from './app';
+import App from './src/index';
 
-if(__DEV__) {
-	console.print = console.log;
-} else {
-	console.print = () => {};
-}
-
-export default App;
+export default new App();
