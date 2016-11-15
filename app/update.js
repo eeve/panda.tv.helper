@@ -2,7 +2,7 @@
 // @name         Panda.tv弹幕助手
 // @namespace
 // @website      https://eeve.me
-// @version      0.1
+// @version      0.2
 // @description  Auto send message script for panda.tv
 // @author       eeve
 // @include      /^http://(www.)?panda.tv/\d+$/

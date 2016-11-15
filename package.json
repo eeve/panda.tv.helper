@@ -1,6 +1,6 @@
 {
   "name": "panda.tv.helper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Auto send message script for panda.tv",
   "main": "index.js",
   "author": "eeve <eeveme@gmail.com>",
