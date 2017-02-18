@@ -73,7 +73,6 @@ export default class ConfigBox{
 			} else { // 取消
 				// 恢复显示聊天框横幅
 				forbid_li.show();
-				console.log('canceled');
 				fuck_mode = 2;
 			}
 			this.box.trigger('changeMode', fuck_mode);
