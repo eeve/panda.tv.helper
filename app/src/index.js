@@ -93,9 +93,20 @@ export default class App {
 
 		// 插入configbox挂载点
 		let config = new ConfigBox(this.els.body, this.els.chatMessageList);
+		let autoTaskInterval = null;
 		config.box.on('changeMode', (e, mode) => {
 			this.toastMsg(mode === 2 ? `任务已取消` : `已开启${mode === 0 ? '自动感谢' : '自动刷屏'}模式`);
 			this.printLog('change mode', mode);
+		}).on('changeTaskMode', (e, autoTask) => {
+			autoTaskInterval && clearInterval(autoTaskInterval)
+			if(autoTask && $('.room-task-modal li > p').text().replace(/已领取/g, '') != '') { // 设置为自动领并还没领完
+				// 循环查看是否可领，并弹出领取框
+				autoTaskInterval = setInterval(() => {
+					if($('.room-task-modal li > p').text().indexOf('可领取') != -1 && $('.main-geetest-container').length === 0) {
+						$('.room-task-modal li').trigger('click'); // 弹出验证码
+					}
+				}, 1000);
+			}
 		}).on('sendMessage', (e, msg) => {
 			this.printLog('发送弹幕：', msg);
 			this.sendMessage(msg)

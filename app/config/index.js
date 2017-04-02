@@ -1,4 +1,3 @@
-import Promise from 'bluebird';
 import $ from 'jquery';
 
 import './config.less';
@@ -76,6 +75,10 @@ export default class ConfigBox{
 				fuck_mode = 2;
 			}
 			this.box.trigger('changeMode', fuck_mode);
+
+			// 自动弹出领竹子窗口
+			this.box.trigger('changeTaskMode', $('#auto_task_window').is(':checked'));
+
 			this.box.hide();
 		});
 		// 取消按钮
